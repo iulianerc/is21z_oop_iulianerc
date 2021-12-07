@@ -1,4 +1,12 @@
 class ComputerHandler {
-  test = '123';
-  //todo: implement
+  expression = '';
+  
+  setExpression (expression) {
+    this.expression = expression;
+  }
+  
+  eval () {
+    return eval(this.expression);
+  }
+  
 }

@@ -1,5 +1,4 @@
 class Computer {
-  
   eval(expression) {
     return eval(expression)
   }
